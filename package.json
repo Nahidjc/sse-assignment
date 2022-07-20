@@ -1,0 +1,45 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "api service for Squad S",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write \"**/*.{js,json,md,yml,yaml}\"",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "SpringRain",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@koa/multer": "^3.0.0",
+    "@sendgrid/mail": "^7.7.0",
+    "aws-sdk": "^2.1147.0",
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "bunyan": "^1.8.12",
+    "dotenv": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.5.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.2.1",
+    "koa2-cors": "^2.0.6",
+    "memory-cache": "^0.2.0",
+    "mongoose": "^6.4.3",
+    "multer": "^1.4.5-lts.1",
+    "newrelic": "^8.14.1",
+    "node-schedule": "^2.1.0",
+    "squad-helpers": "git+https://github.com/Squad-S/squad-helpers.git",
+    "useragent": "^2.3.0",
+    "uuid": "^3.3.2",
+    "validator": "^13.7.0"
+  }
+}
